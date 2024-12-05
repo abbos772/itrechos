@@ -3,6 +3,7 @@
     background: rgba(7, 7, 6, 1);
    color: white;
    padding: 32px;
+   
    .nav_flex{
     display: flex;
     align-items: center;
@@ -37,7 +38,10 @@ line-height: 26px;
 text-align: center;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
-
+animation: none;
+p{
+  animation: none;
+}
      }
    }
   
@@ -76,6 +80,9 @@ text-decoration-skip-ink: none;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        .nav_logo img{
+           width: 100px;
+        }
        .nav{
         position: absolute;
         top: 50%;
