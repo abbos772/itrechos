@@ -3,16 +3,24 @@ import './Navbar.scss'
 import Logo from './img/Itrechos.png'
 import { FaPhoneVolume } from "react-icons/fa6";
 import { IoMenuOutline } from 'react-icons/io5';
+import { IoMdClose } from 'react-icons/io';
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
   return (
     <div className='navbar'> 
       <div className='container'>
        <div className='nav_flex'>
-       <div className='nav'>
+       <div className='nav_logo'>
                <img src={Logo} alt="" />
         </div>
        <div className={`nav_menu ${toggle ? "show" : ""}`}>
+       <button
+            id="menu_close"
+            className="menu"
+            onClick={() => setToggle(!toggle)}
+          >
+            <IoMdClose fontSize={30} />
+          </button>
        <div className='nav'>
           <a href="">HOME</a>
           <a href="">SERVICES</a>
