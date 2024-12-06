@@ -2,7 +2,9 @@ import React from "react";
 import "./Hero.scss";
 import { LuCirclePlay } from "react-icons/lu";
 import heroImg from "./img/Image (1).png";
+import miniimg from './img/image 79.png'
 
+import { Rating } from "@mui/material";
 const Hero = () => {
   return (
     <div className="hero">
@@ -32,6 +34,14 @@ const Hero = () => {
           </div>
           <div className="hero_img">
             <img src={heroImg} alt="Hero" />
+            <div className="hero_min">
+            <img src={miniimg} alt="" />
+            </div>
+            <div className="hero_min2">
+              <h3>2000+</h3>
+              <p>Happy Clients</p>
+              <Rating/>
+            </div>
           </div>
         </div>
       </div>
