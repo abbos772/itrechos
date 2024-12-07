@@ -5,12 +5,12 @@ import aboutMan2 from './img/Image (4).png';
 const About = () => {
   return (
     <div className='About container'>
-         <div className='about_texts'>
+         <div id='About'  className='about_texts'>
             <h4>ABOUT US</h4>
             <h1>Our Company Specialize In IT Solutions & Technology with Passion</h1>
             <p>Assertively streamline interactive interfaces after value-added infrastructures. Authoritatively fabricate fully tested methodologies before. Holistic deliver end-to-end architectures rather than economically sound benefits. Progressively simplify end-to-end paradigms. Assertively streamline interactive interfaces after value-added infrastructure.</p>
          </div>
-         <div className='about_flex'>
+         <div  className='about_flex'>
             <div className='about_images'>
               <div className='abt_img'>
                 <img src={aboutMan} alt="" />

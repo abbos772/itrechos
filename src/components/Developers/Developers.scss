@@ -1,0 +1,310 @@
+.developers{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .dev_top{
+        padding-top: 100px;
+        padding-bottom: 50px;
+        h3{
+      
+font-family: Syne;
+font-size: 18px;
+font-weight: 700;
+line-height: 26px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(127, 39, 255, 1);
+
+        }
+        .dev_text{
+       display: flex;
+       justify-content: space-between;
+      
+
+       h1{
+        font-family: Syne;
+font-size: 64px;
+font-weight: 700;
+line-height: 72px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(26, 29, 39, 1);
+
+       }
+       button{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border: 0;
+        background: 0;//styleName: Action;
+        font-family: Syne;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 1px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: rgba(255, 137, 17, 1);
+        cursor: pointer;
+        svg{
+            font-size: 20px;
+        }
+       }
+        }
+    }
+    .Users{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 15px;
+     .user{
+        width: 306px;
+height: 512px;
+gap: 32px;
+.user_text{
+    padding-top: 15px;
+    h4{
+        //styleName: H6;
+font-family: Syne;
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(26, 29, 39, 1);
+
+    }
+    p{
+        //styleName: Body;
+font-family: Syne;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(26, 29, 39, 0.6);
+
+    }
+}
+img{
+    width: 100%;
+    max-width: 306px;
+    height: auto;
+}
+     }
+    }
+}
+
+@media (max-width:810px){
+    .developers{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        .dev_top{
+            padding-top: 100px;
+            padding-bottom: 50px;
+            h3{
+          
+    font-family: Syne;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(127, 39, 255, 1);
+    
+            }
+            .dev_text{
+           display: flex;
+           justify-content: space-between;
+          
+    
+           h1{
+            font-family: Syne;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(26, 29, 39, 1);
+    
+           }
+           button{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border: 0;
+            background: 0;//styleName: Action;
+            font-family: Syne;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 1px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: rgba(255, 137, 17, 1);
+            cursor: pointer;
+            svg{
+                font-size: 20px;
+            }
+           }
+            }
+        }
+        .Users{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         gap: 15px;
+         flex-wrap: wrap;
+         .user{
+            width: 306px;
+    height: 512px;
+    gap: 32px;
+    .user_text{
+        padding-top: 15px;
+        h4{
+            //styleName: H6;
+    font-family: Syne;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(26, 29, 39, 1);
+    
+        }
+        p{
+            //styleName: Body;
+    font-family: Syne;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(26, 29, 39, 0.6);
+    
+        }
+    }
+    img{
+        width: 100%;
+        max-width: 306px;
+        height: auto;
+    }
+         }
+        }
+    }
+}
+
+@media (max-width:500px){
+    .developers{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        .dev_top{
+            padding-top: 100px;
+            padding-bottom: 50px;
+            h3{
+          
+    font-family: Syne;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(127, 39, 255, 1);
+    
+            }
+            .dev_text{
+           display: flex;
+           justify-content: space-between;
+          
+    
+           h1{
+            font-family: Syne;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(26, 29, 39, 1);
+    
+           }
+           button{
+            display: flex;
+            align-items: center;
+            gap: 3px;
+            border: 0;
+            background: 0;//styleName: Action;
+            font-family: Syne;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 1px;
+            letter-spacing: 1px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: rgba(255, 137, 17, 1);
+            cursor: pointer;
+            svg{
+                font-size: 16px;
+            }
+           }
+            }
+        }
+        .Users{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         gap: 0px;
+         flex-wrap: wrap;
+         .user{
+            width: 306px;
+            height: 500px;
+            gap: 32px;
+    .user_text{
+        padding-top: 15px;
+        h4{
+            //styleName: H6;
+    font-family: Syne;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(26, 29, 39, 1);
+    
+        }
+        p{
+            //styleName: Body;
+    font-family: Syne;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(26, 29, 39, 0.6);
+    
+        }
+    }
+    img{
+        width: 100%;
+        max-width: 306px;
+        height: auto;
+    }
+         }
+        }
+    }
+}

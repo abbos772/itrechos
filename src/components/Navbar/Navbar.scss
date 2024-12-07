@@ -1,9 +1,14 @@
 .navbar{
-    height: 92px;
-    background: rgba(7, 7, 6, 1);
-   color: white;
-   padding: 32px;
-   
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 92px;
+  background: rgba(7, 7, 6, 1);
+  color: white;
+   padding: 30px;
+  z-index: 999;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+
    .nav_flex{
     display: flex;
     align-items: center;
@@ -28,6 +33,7 @@ transition: 0.2s;
         color: rgb(120, 120, 254);
     }
      .tel{
+      
         display: flex;
         align-items: center;
         gap: 10px;
@@ -40,7 +46,7 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 animation: none;
 p{
-  animation: none;
+  color: white !important;
 }
      }
    }

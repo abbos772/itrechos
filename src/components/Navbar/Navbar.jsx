@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import './Navbar.scss'
 import Logo from './img/Itrechos.png'
 import { FaPhoneVolume } from "react-icons/fa6";
@@ -6,6 +6,22 @@ import { IoMenuOutline } from 'react-icons/io5';
 import { IoMdClose } from 'react-icons/io';
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        if (window.scrollY > 50) {
+          setIsScrolled(true); 
+        } else {
+          setIsScrolled(false); 
+        }
+      };
+  
+      window.addEventListener("scroll", handleScroll);
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }, []);
   return (
     <div className='navbar'> 
       <div className='container'>
@@ -22,14 +38,14 @@ const Navbar = () => {
             <IoMdClose fontSize={30} />
           </button>
        <div className='nav'>
-          <a href="">HOME</a>
-          <a href="">SERVICES</a>
-          <a href="">PAGES</a>
-          <a href="">BLOG</a>
-          <a href="">CONTACT</a>
+          <a href="#">HOME</a>
+          <a href="#Servic">SERVICES</a>
+          <a href="#About">About US</a>
+          <a href="#Blog">BLOG</a>
+          <a href="#Contact">CONTACT</a>
           <div className='tel'>
             <FaPhoneVolume/>
-            <p>+998 93 772 09 30</p>
+            <p style={{color:"white"}}>+998 93 772 09 30</p>
           </div>
        </div>
        </div>

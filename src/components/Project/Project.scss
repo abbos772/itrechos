@@ -1,0 +1,512 @@
+.Project{
+    background-image: url('./img/BG.png');
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    margin-top: 120px;
+    background-size: cover;
+    background-position: center;
+    .Pro{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        .Pro_top{
+            display: flex;
+            align-items: center;
+          
+            .Pro_text{
+                width: 100%;
+                max-width: 736px;
+                height: auto;
+                h4{
+                    //styleName: Subtitle;
+font-family: Syne;
+font-size: 18px;
+font-weight: 700;
+line-height: 26px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(255, 137, 17, 1);
+
+                }
+                h1{
+                    font-family: Syne;
+font-size: 64px;
+font-weight: 700;
+line-height: 72px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(255, 255, 255, 1);
+
+                }
+                p{
+                   
+font-family: Syne;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(255, 255, 255, 1);
+padding-top: 20px;
+                }
+            }
+        }
+        .Pro_bottom{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 18px;
+            .Pro_box{
+                width: 100%;
+                max-width: 416px;
+                height: 400px;
+                gap: 0px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                position: relative;
+                   .tech{
+                    position: absolute;
+                    bottom: 20%; 
+                    left: 50.5%;  
+                    transform: translate(-50%, 50%); 
+                    width: 100%;
+                    max-width: 368px;
+                    padding: 20px;
+                    height: auto;
+                    gap: 3px;
+                    display: flex;
+                    flex-direction: column;
+                    background: rgba(255, 255, 255, 1);
+                    h6{
+                   
+font-family: Syne;
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(127, 39, 255, 1);
+
+                    }
+                    h4{
+                  
+font-family: Syne;
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(26, 29, 39, 1);
+
+                    }
+                    h5{
+                        //styleName: Body;
+font-family: Syne;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(26, 29, 39, 0.8);
+
+                    }
+                   }
+            }
+            .box1{
+                background-image: url(./img/box1.png);
+            }
+            .box2{
+                background-image: url(./img/box2.png);
+            }
+            .box3{
+                background-image: url(./img/box3.png);
+            }
+            .box4{
+                background-image: url(./img/box4.png);
+            }
+            .box5{
+                background-image: url(./img/box5.png);
+            }
+           .box6{
+            background: rgba(255, 137, 17, 1);
+             padding: 30px;
+             display: flex;
+             flex-direction: column-reverse;
+             align-items: flex-end;
+             justify-content: space-between;
+             h4{
+                
+font-family: Syne;
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(7, 7, 6, 1);
+
+             }
+             svg{
+                width: 50px;
+                height: 50px;
+                
+             }
+           }
+        }
+    }
+}
+@media (max-width:950px){
+    .Project{
+        background-image: url('./img/BG.png');
+        width: 100%;
+        height: auto;
+        padding-bottom: 100px;
+        padding-top: 100px;
+        margin-top: 120px;
+        background-size: cover;
+        background-position: center;
+        .Pro{
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+            .Pro_top{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .Pro_text{
+                    width: 100%;
+                    max-width: 736px;
+                    height: auto;
+                    padding: 20px;
+                    h4{
+                     
+    font-family: Syne;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 137, 17, 1);
+    
+                    }
+                    h1{
+                        font-family: Syne;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    
+                    }
+                    p{
+                       
+    font-family: Syne;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 20px;
+                    }
+                }
+            }
+            .Pro_bottom{
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                padding: 20px;
+                justify-content: center;
+                gap: 18px;
+                .Pro_box{
+                   
+                    width: 100%;
+                    max-width: 350px;
+                    height: 300px;
+                    gap: 0px;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    .tech{
+                        position: absolute;
+                        bottom: 20%; 
+                        left: 50.5%;  
+                        transform: translate(-50%, 50%); 
+                        width: 100%;
+                        max-width: 300px;
+                        padding: 20px;
+                        height: auto;
+                        gap: 3px;
+                        display: flex;
+                        flex-direction: column;
+                        background: rgba(255, 255, 255, 1);
+                        h6{
+                       
+    font-family: Syne;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 10px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(127, 39, 255, 1);
+    
+                        }
+                        h4{
+                      
+    font-family: Syne;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(26, 29, 39, 1);
+    
+                        }
+                        h5{
+                           
+    font-family: Syne;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(26, 29, 39, 0.8);
+    
+                        }
+                       }
+                }
+                .box1{
+                    background-image: url(./img/box1.png);
+                
+                }
+                .box2{
+                    background-image: url(./img/box2.png);
+                }
+                .box3{
+                    background-image: url(./img/box3.png);
+                }
+                .box4{
+                    background-image: url(./img/box4.png);
+                }
+                .box5{
+                    background-image: url(./img/box5.png);
+                }
+               .box6{
+                background: rgba(255, 137, 17, 1);
+                 padding: 30px;
+                 display: flex;
+                 flex-direction: column-reverse;
+                 align-items: flex-end;
+                 justify-content: space-between;
+                 h4{
+                    
+    font-family: Syne;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(7, 7, 6, 1);
+    
+                 }
+                 svg{
+                    width: 50px;
+                    height: 50px;
+                    
+                 }
+               }
+            }
+        }
+    }
+}
+
+@media (max-width:500px){
+    .Project{
+        background-image: url('./img/BG.png');
+        width: 100%;
+        height: auto;
+        padding-bottom: 100px;
+        padding-top: 80px;
+        margin-top: 100px;
+        background-size: cover;
+        background-position: center;
+        .Pro{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            .Pro_top{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .Pro_text{
+                    width: 100%;
+                    max-width: 736px;
+                    height: auto;
+                    padding: 20px;
+                    h4{
+                     
+    font-family: Syne;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 137, 17, 1);
+    
+                    }
+                    h1{
+                        font-family: Syne;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    
+                    }
+                    p{
+                       
+    font-family: Syne;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 20px;
+                    }
+                }
+            }
+            .Pro_bottom{
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                padding: 20px;
+                justify-content: center;
+                gap: 18px;
+                .Pro_box{
+                   
+                    width: 100%;
+                    max-width: 320px;
+                    height: 270px;
+                    gap: 0px;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    .tech{
+                        position: absolute;
+                        bottom: 20%; 
+                        left: 50.5%;  
+                        transform: translate(-50%, 50%); 
+                        width: 100%;
+                        max-width: 260px;
+                        padding: 20px;
+                        height: auto;
+                        gap: 3px;
+                        display: flex;
+                        flex-direction: column;
+                        background: rgba(255, 255, 255, 1);
+                        h6{
+                       
+    font-family: Syne;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 10px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(127, 39, 255, 1);
+    
+                        }
+                        h4{
+                      
+    font-family: Syne;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(26, 29, 39, 1);
+    
+                        }
+                        h5{
+                           
+    font-family: Syne;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 10px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(26, 29, 39, 0.8);
+    
+                        }
+                       }
+                }
+                .box1{
+                    background-image: url(./img/box1.png);
+                
+                }
+                .box2{
+                    background-image: url(./img/box2.png);
+                }
+                .box3{
+                    background-image: url(./img/box3.png);
+                }
+                .box4{
+                    background-image: url(./img/box4.png);
+                }
+                .box5{
+                    background-image: url(./img/box5.png);
+                }
+               .box6{
+                background: rgba(255, 137, 17, 1);
+                 padding: 30px;
+                 display: flex;
+                 flex-direction: column-reverse;
+                 align-items: flex-end;
+                 justify-content: space-between;
+                 h4{
+                    
+    font-family: Syne;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(7, 7, 6, 1);
+    
+                 }
+                 svg{
+                    width: 50px;
+                    height: 50px;
+                    
+                 }
+               }
+            }
+        }
+    }
+}

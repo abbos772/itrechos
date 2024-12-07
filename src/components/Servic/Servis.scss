@@ -1,0 +1,804 @@
+.servis{
+    margin-top: 100px;
+    background-image: url(./img/rasm.png);
+    width: 100%;
+    height: 1184px;
+    background-size: cover;
+    background-position: center;
+    .servis_flex{
+        padding-top: 150px;
+        display: flex;
+        align-items: center;
+        gap: 80px;
+        max-width: 1296px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        .big_cartss{
+          display: flex;
+          gap: 30px;
+          
+            .cartss2{
+               
+             padding-top: 125px; 
+            }
+            .cartss ,.cartss2{
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+                .bola{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .ob{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                    }
+                    img{
+                        width: 72px;
+                    }
+                    padding: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    
+                    h4{
+                        font-family: Syne;
+                        font-size: 24px;
+                        font-weight: 700;
+                        line-height: 28px;
+                        text-align: left;
+                        text-underline-position: from-font;
+                        text-decoration-skip-ink: none;
+                        color: rgba(7, 7, 6, 1);
+                        
+                        }
+                        p{
+                            //styleName: Body;
+font-family: Syne;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(26, 29, 39, 0.8);
+
+                        }
+                        width: 100%;
+                    max-width: 306px;
+                    height: 360px;
+                    gap: 0px;
+                    border-radius: 16px;
+                    opacity: 0px;
+                    
+                   background-color: rgba(236, 238, 242, 1);
+                   button{
+                    //styleName: Action;
+font-family: Syne;
+font-size: 15px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 1px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+border: 0;
+background: 0;
+color: rgba(127, 39, 255, 1);
+cursor: pointer;
+display: flex;
+align-items: center;
+gap: 6px;
+svg{
+    width: 25px;
+    height: 25px;
+}
+
+                   }
+                }
+            }
+        }
+        .servis_texts{
+            width: 100%;
+            max-width: 580px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            h4{
+            
+font-family: Syne;
+font-size: 18px;
+font-weight: 700;
+line-height: 26px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(255, 137, 17, 1);
+
+            }
+            h1{
+                font-family: Syne;
+font-size: 64px;
+font-weight: 700;
+line-height: 72px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(255, 255, 255, 1);
+
+            }
+            p{
+                //styleName: Body;
+font-family: Syne;
+font-size: 16px;
+font-weight: 100;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(255, 255, 255, 1);
+
+            }
+        }
+        
+    }
+    .big_box{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    .servis_box{
+        display: flex;
+        gap: 15px;
+        img{
+            width: 34px;
+            height: 34px;
+        }
+    .servis_mini_boxes{
+        display: flex;
+       
+       
+        .servis_mini_box{
+         display: flex;
+         flex-direction: column;
+         gap: 10px;
+         h3{
+            font-family: Syne;
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(255, 255, 255, 1);
+
+         }
+         h5{
+            font-family: Syne;
+font-size: 14px;
+font-weight: 400;
+line-height: 23px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(255, 255, 255, 1);
+
+         }
+        }
+    }
+  
+    }
+
+    }
+} 
+@media (max-width:1200px){
+    .servis{
+        margin-top: 100px;
+        background-image: url(./img/rasm.png);
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
+        background-size: cover;
+        background-position: center;
+        .servis_flex{
+            padding: 25px;
+            padding-top: 80px;
+            display: flex;
+            align-items: center;
+            gap: 80px;
+            max-width: 1296px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            flex-wrap: wrap;
+            justify-content: center;
+            .big_cartss{
+              display: flex;
+              gap: 30px;
+                padding: 25px;
+                .cartss2{ 
+                 padding-top: 125px; 
+                }
+                .cartss ,.cartss2{
+                  
+                    display: flex;
+                    flex-direction: column;
+                    gap: 50px;
+                    .bola{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        .ob{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+                        }
+                        img{
+                            width: 72px;
+                        }
+                        padding: 30px;
+                        display: flex;
+                        flex-direction: column;
+                        
+                        h4{
+                            font-family: Syne;
+                            font-size: 24px;
+                            font-weight: 700;
+                            line-height: 28px;
+                            text-align: left;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: rgba(7, 7, 6, 1);
+                            
+                            }
+                            p{
+                                //styleName: Body;
+    font-family: Syne;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(26, 29, 39, 0.8);
+    
+                            }
+                            width: 100%;
+                        max-width: 306px;
+                        height: 360px;
+                        gap: 0px;
+                        border-radius: 16px;
+                        opacity: 0px;
+                        
+                       background-color: rgba(236, 238, 242, 1);
+                       button{
+                        //styleName: Action;
+    font-family: Syne;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: 0;
+    background: 0;
+    color: rgba(127, 39, 255, 1);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    svg{
+        width: 25px;
+        height: 25px;
+    }
+    
+                       }
+                    }
+                }
+            }
+            .servis_texts{
+                width: 100%;
+                max-width: 580px;
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+                h4{
+                
+    font-family: Syne;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 137, 17, 1);
+    
+                }
+                h1{
+                    font-family: Syne;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    
+                }
+                p{
+                    //styleName: Body;
+    font-family: Syne;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    
+                }
+            }
+            
+        }
+        .big_box{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        .servis_box{
+            display: flex;
+            gap: 15px;
+            img{
+                width: 34px;
+                height: 34px;
+            }
+        .servis_mini_boxes{
+            display: flex;
+           
+           
+            .servis_mini_box{
+             display: flex;
+             flex-direction: column;
+             gap: 10px;
+             h3{
+                font-family: Syne;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    
+             }
+             h5{
+                font-family: Syne;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    
+             }
+            }
+        }
+      
+        }
+    
+        }
+    } 
+    
+}
+@media (max-width:800px){
+    #bole{
+        h2{
+            padding-top: 170px !important;
+            padding-left: 10px;
+            font-size: 21px;
+        }
+    }
+    .servis{
+        margin-top: 100px;
+        background-image: url(./img/rasm.png);
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
+        background-size: cover;
+        background-position: center;
+        .servis_flex{
+            padding: 25px;
+            padding-top: 80px;
+            display: flex;
+            align-items: center;
+            gap: 80px;
+            max-width: 1296px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            flex-wrap: wrap;
+            justify-content: center;
+            .big_cartss{
+              display: flex;
+              gap: 30px;
+                padding: 25px;
+                .cartss2{ 
+                 padding-top: 125px; 
+                }
+                .cartss ,.cartss2{
+                  
+                    display: flex;
+                    flex-direction: column;
+                    gap: 50px;
+                    .bola{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        .ob{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+                        }
+                        img{
+                            width: 50px;
+                        }
+                        padding: 30px;
+                        display: flex;
+                        flex-direction: column;
+                        
+                        h4{
+                            font-family: Syne;
+                            font-size: 16px;
+                            font-weight: 700;
+                            line-height: 28px;
+                            text-align: left;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: rgba(7, 7, 6, 1);
+                            
+                            }
+                            p{
+                                //styleName: Body;
+    font-family: Syne;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(26, 29, 39, 0.8);
+    
+                            }
+                            width: 100%;
+                        max-width: 240px;
+                        height: 300px;
+                        gap: 0px;
+                        border-radius: 16px;
+                        opacity: 0px;
+                        
+                       background-color: rgba(236, 238, 242, 1);
+                       button{
+                        //styleName: Action;
+    font-family: Syne;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: 0;
+    background: 0;
+    color: rgba(127, 39, 255, 1);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    svg{
+        width: 25px;
+        height: 25px;
+    }
+    
+                       }
+                    }
+                }
+            }
+            .servis_texts{
+                width: 100%;
+                max-width: 580px;
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+                h4{
+                
+    font-family: Syne;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 137, 17, 1);
+    
+                }
+                h1{
+                    font-family: Syne;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    
+                }
+                p{
+                    //styleName: Body;
+    font-family: Syne;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    
+                }
+            }
+            
+        }
+        .big_box{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        .servis_box{
+            display: flex;
+            gap: 15px;
+            img{
+                width: 34px;
+                height: 34px;
+            }
+        .servis_mini_boxes{
+            display: flex;
+           
+           
+            .servis_mini_box{
+             display: flex;
+             flex-direction: column;
+             gap: 10px;
+             h3{
+                font-family: Syne;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    
+             }
+             h5{
+                font-family: Syne;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    
+             }
+            }
+        }
+      
+        }
+    
+        }
+    } 
+}
+
+@media (max-width:600px){
+        #bole{
+            h2{
+                padding-top: 170px !important;
+                padding-left: 10px;
+                font-size: 20px !important;
+            }
+        }
+        .servis{
+            margin-top: 100px;
+            background-image: url(./img/rasm.png);
+            width: 100%;
+            height: auto;
+            padding-bottom: 50px;
+            background-size: cover;
+            background-position: center;
+            .servis_flex{
+                padding: 25px;
+                padding-top: 70px;
+                display: flex;
+                align-items: center;
+                gap: 80px;
+                max-width: 1296px;
+                margin: 0 auto;
+                box-sizing: border-box;
+                flex-wrap: wrap;
+                justify-content: center;
+                .big_cartss{
+                  display: flex;
+                  gap: 30px;
+                  flex-wrap: wrap;
+                  align-items: center;
+                  justify-content: center;
+                    padding: 5px;
+                    .cartss2{ 
+                     padding-top: 20px;
+
+                    }
+                    .cartss ,.cartss2{
+                      
+                        display: flex;
+                        flex-direction: column;
+                        gap: 50px;
+                        .bola{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            .ob{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 10px;
+                            }
+                            img{
+                                width: 40px;
+                            }
+                            padding: 15px;
+                            display: flex;
+                            flex-direction: column;
+                            
+                            h4{
+                                font-family: Syne;
+                                font-size: 14px;
+                                font-weight: 700;
+                                line-height: 16px;
+                                text-align: left;
+                                text-underline-position: from-font;
+                                text-decoration-skip-ink: none;
+                                color: rgba(7, 7, 6, 1);
+                                
+                                }
+                                p{
+                                   
+        font-family: Syne;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: rgba(26, 29, 39, 0.8);
+        
+                                }
+                                width: 100%;
+                            width: 160px;
+                            height: 210px;
+                            gap: 0px;
+                            border-radius: 16px;
+                            opacity: 0px;
+                            
+                           background-color: rgba(236, 238, 242, 1);
+                           button{
+                            //styleName: Action;
+        font-family: Syne;
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 1px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        border: 0;
+        background: 0;
+        color: rgba(127, 39, 255, 1);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        svg{
+            width: 25px;
+            height: 25px;
+        }
+        
+                           }
+                        }
+                    }
+                }
+                .servis_texts{
+                    width: 100%;
+                    max-width: 580px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    h4{
+                    
+        font-family: Syne;
+        font-size: 15px !important;
+        font-weight: 700;
+        line-height: 26px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: rgba(255, 137, 17, 1);
+        
+                    }
+                    h1{
+                        font-family: Syne;
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 45px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: rgba(255, 255, 255, 1);
+        
+                    }
+                    p{
+                        //styleName: Body;
+        font-family: Syne;
+        font-size: 14px;
+        font-weight: 100;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: rgba(255, 255, 255, 1);
+        
+                    }
+                }
+                
+            }
+            .big_box{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+            .servis_box{
+                display: flex;
+                gap: 10px;
+                img{
+                    width: 30px;
+                    height: 30px;
+                }
+            .servis_mini_boxes{
+                display: flex;
+                .servis_mini_box{
+                 display: flex;
+                 flex-direction: column;
+                 gap: 5px;
+                 h3{
+                    font-family: Syne;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: rgba(255, 255, 255, 1);
+        
+                 }
+                 h5{
+                    font-family: Syne;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 23px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: rgba(255, 255, 255, 1);
+        
+                 }
+                }
+            }
+          
+            }
+        
+            }
+        } 
+    }
